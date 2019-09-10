@@ -63,27 +63,63 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
+a {
+	font-weight: bold;
+	text-decoration: none;
+}
+
+h1 {
+	font-size:  90px;
+	letter-spacing: .05em;
+	font-weight: bold;
+	
+}
+
+h2 {
+	font-size: 1.5em;
+}
+
+p {
+	letter-spacing: 0.02em;
+	line-height: 1.25em;
+}
+
+button {
+	margin-bottom: 10%;
+	background-color: #fff;
+	color: #000000;
+	font-family: 'titillium web', sans-serif;
+	border: 1px solid #000000;
+	letter-spacing: 0.1em;
+	font-size: 25px;
+}
+
+
+
 body {
 	width: 90%;
 	margin: auto;
 }
 
+nav {
+	display: inline-block;
+	padding-top: 1%;
+}
+
 header {
-	text-align: center;
+	padding: 20px 0;
 }
 
 
+
+
 .nav-bar {
-	width: 90%;
-	display: inline-block;
-	content: center;
-	margin: 1%;
-	padding: 1%;
+	width: 955px;
+	padding-bottom: 1%;
 	color: grey;
 	font-family: Arial;
 }
 .nav-bar a {
-	justify-content: space-evenly;
 	margin: 40px;
 	color: lightgrey;
 	
@@ -93,10 +129,7 @@ header {
     display: inline-block;
     vertical-align: top;
     margin: 1%;
-    width: 48%;
-	min-width: 250px;
 	text-align: center;
-	font-size:  90px;
 	font-family: 'Bangers', cursive;
 }
 
@@ -123,8 +156,8 @@ header {
 }
 
 .container-1 {
-	width: 100%;
-
+	padding-bottom: 80px;
+	text-align: center;
 	
 }
 
@@ -149,56 +182,67 @@ header {
 
 .features-1 {
 	width: 100%;
-	border-top: 1px solid black;
-
-}
-
-.features-box {
-	width:49%;
-	margin: 1%;
 	
 
 }
 
-.features-box-2 {
-	width: 49%;
-	margin: 1%;
-	
-	
-	
+.features-1 div {
+	width: 48%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	display: inline-block;
 }
 
-.code-image-2 {
-	margin: 1%;
+.img-code {
 	width: 100%;
+	max-width: 955px;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	display: block;
 
 }
 
-.features-box-3 {
-	width: 100%;
-	
 
+.service-2 {
+	margin-top: 20px;
+	padding: 20px 0;
+	padding-bottom: 0;
 }
 
-.ft1 {
-	width: 10%;
-	margin: 1%;
-	padding: 1%;
-	
+.service-2 div {
+	width: 30%;
+	margin-right: 2%;
+	display: inline-block;
 }
 
-.ft2 {
-	width: 33%;
-	margin: 1%;
-	padding: 1%;
-	
-
+.service-2 p {
+	margin-bottom: 10%;
 }
 
-.ft3 {
-	width: 13%;
-	margin: 1%;
-	padding: 1%;
-	
+.footer-box {
+	margin: 1% auto;
+	padding: 4% 0;
+}
+.footer-box a {
+	color: #000000;
+	padding-top: 1%;
+	margin-top: 1%;
+}
+
+
+.tel888 {
+	padding-bottom: 1%;
+}
+.hr-1 {
+	border:.51px solid #000000;
+}
+
+.hr-2 {
+	border: .5px solid #000000;
+}
+
+footer {
+	text-align: center;
+	margin-bottom: 5%;
 }
 /* Your code starts here! */
