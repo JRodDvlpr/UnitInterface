@@ -72,6 +72,7 @@ header {
 	text-align: center;
 }
 
+
 .nav-bar {
 	width: 100%;
 	display: inline-flex;
@@ -89,19 +90,110 @@ header {
 	
 }
 
-.img-header {
-	display: inline-flex;
+.content-text {
+	border: 2px solid blue;
+    display: inline-block;
     vertical-align: top;
     margin: 1%;
     width: 48%;
-    min-width: 250px;
+	min-width: 250px;
+	text-align: center;
+	font-size:  90px;
+	font-family: 'Bangers', cursive;
+}
+
+.content-text a {
+	font-family: 'Titillium Web', cursive;
+	font-size: 18px;
+	border: 1px solid grey;
+	margin: 0 auto;
+	padding: 1%;
+}
+
+.img-header {
+	margin: 1%;
+	width: 42%;
+	padding: 2%;
+    border: 2px solid blue;
+    
 }
 
 .container-1 {
-	font-size: 90px;
+	width: 100%;
+	border: 1px solid red;
+	
+	
 }
 
-#getstarted {
-	border: 1 solid black;
+
+.container-2 {
+	font-size: 18px;
+	border: 1px solid black;
+	width: 25%;
+	text-align: center;
+	margin: 2%;
+	padding: 1%;
+	justify-content: center;
+}
+
+.container-2 a {
+	width: 100%;
+	margin: 2%;
+	padding: 2%;
+	
+
+}
+
+.features-1 {
+	width: 100%;
+	display: inline-block;
+	margin: 0 auto;
+	border: 1px solid red;
+	
+
+}
+
+.features-box {
+	width:48%;
+	margin: 1%;
+
+
+}
+
+.features-box-2 {
+	width: 48%;
+	margin: 1%;
+	border: 1px solid blue;	
+	
+}
+
+.code-image-2 {
+	margin: 1%;
+	width: 100%;
+
+}
+
+.features-box-3 {
+	width: 100%;
+
+}
+
+.ft1 {
+	width: 33%;
+	margin: 1%;
+	padding: 1%;
+}
+
+.ft2 {
+	width: 33%;
+	margin: 1%;
+	padding: 1%;
+
+}
+
+.ft3 {
+	width: 13%;
+	margin: 1%;
+	padding: 1%;
 }
 /* Your code starts here! */
